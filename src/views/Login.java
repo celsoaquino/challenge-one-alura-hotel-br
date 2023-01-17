@@ -192,7 +192,7 @@ public class Login extends JFrame {
 			}
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				Login();
+				login();
 			}
 		});
 		btnLogin.setBackground(SystemColor.textHighlight);
@@ -234,7 +234,7 @@ public class Login extends JFrame {
 		header.setLayout(null);
 	}
 	
-	private void Login() {
+	private void login() {
 		 String Usuario= "admin";
 	     String Senha="admin";
 
